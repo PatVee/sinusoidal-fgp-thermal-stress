@@ -1,6 +1,6 @@
 # Executed Python study: thermal porous FGM plates
 
-The package contains executed deterministic analyses, source code, numerical verification, convergence runs, CSV tables, and seven figures in PNG and SVG. No Bayesian inference was performed.
+The package contains executed deterministic analyses, source code, numerical verification, convergence runs, CSV tables, and seven figures in PNG and SVG.
 
 **Run it**
 
