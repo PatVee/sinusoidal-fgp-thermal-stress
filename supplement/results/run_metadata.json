@@ -1,0 +1,152 @@
+{
+  "run_utc": "2026-09-12T21:54:15.096006+00:00",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "quick": false,
+  "main_p": 121,
+  "main_nz": 32,
+  "elapsed_seconds": 173.6685631950022,
+  "row_count": 76,
+  "unique_comparisons": 70,
+  "baseline": {
+    "slenderness": 10.0,
+    "aspect": 1.0,
+    "gradation": 1.0,
+    "porosity": 0.1,
+    "pattern": "uniform",
+    "deltaT": 20.0,
+    "bottomT": 0.0,
+    "pressure": 0.0,
+    "support": "SS",
+    "etaB": 0.0,
+    "E_exponent": 2.0,
+    "k_exponent": 1.0,
+    "E_scale": 1.0,
+    "alpha_scale": 1.0,
+    "nonlocal_length": 0.0,
+    "material": "FGM"
+  },
+  "bounds": {
+    "gradation": [
+      0.5,
+      2.0
+    ],
+    "porosity": [
+      0.05,
+      0.2
+    ],
+    "E_exponent": [
+      1.5,
+      2.5
+    ],
+    "k_exponent": [
+      0.5,
+      1.5
+    ],
+    "E_scale": [
+      0.85,
+      1.15
+    ],
+    "alpha_scale": [
+      0.85,
+      1.15
+    ]
+  },
+  "random_seed": 20260912,
+  "interpretation": "Deterministic sensitivity design; no inferred probabilities or posterior.",
+  "verification": [
+    {
+      "check": "3D affine displacement patch",
+      "value": 1.9877039828900913e-15,
+      "limit": 1e-10,
+      "unit": "relative",
+      "passed": true
+    },
+    {
+      "check": "Free thermal expansion stress",
+      "value": 3.93681404968162e-13,
+      "limit": 1e-06,
+      "unit": "MPa",
+      "passed": true
+    },
+    {
+      "check": "Steady heat flux constancy",
+      "value": 8.562197096352822e-08,
+      "limit": 2e-05,
+      "unit": "relative",
+      "passed": true
+    },
+    {
+      "check": "SPT thin-pressure Navier limit",
+      "value": 0.0005173959242721349,
+      "limit": 0.002,
+      "unit": "relative",
+      "passed": true
+    },
+    {
+      "check": "3D modal thin-pressure Navier limit",
+      "value": 0.00045919787814252544,
+      "limit": 0.002,
+      "unit": "relative",
+      "passed": true
+    },
+    {
+      "check": "Independent solid/modal pressure displacement",
+      "value": 0.0005644811454603715,
+      "limit": 0.005,
+      "unit": "relative",
+      "passed": true
+    },
+    {
+      "check": "Independent solid/modal pressure normal stress",
+      "value": 0.0027222394601803764,
+      "limit": 0.02,
+      "unit": "relative L2",
+      "passed": true
+    }
+  ],
+  "summary": {
+    "baseline": {
+      "w3": 5.7934389119461185e-05,
+      "wp": 5.8977265819685173e-05,
+      "w_over_h": 0.0005793438911946118,
+      "w_error": 1.8000995886459903,
+      "sx3_abs": 17.312519753968655,
+      "sxp_abs": 17.292550989203253,
+      "sx_error": 0.1632282089729477,
+      "edge_sx_error": 31.792656453137575
+    },
+    "magnetic_eta1000": {
+      "deflection_change_percent": -96.43023568679091,
+      "centre_peak_stress_change_percent": 13.121758391268855
+    },
+    "rq2": {
+      "cases": 24,
+      "screen_passes": 0,
+      "w_error_range": [
+        0.05368434952504201,
+        13.742673056228135
+      ],
+      "centre_stress_error_range": [
+        0.14668639976727343,
+        0.2370778715886778
+      ],
+      "edge_stress_error_range": [
+        17.141061452379148,
+        44.39528919443394
+      ]
+    },
+    "bounded_design": {
+      "samples": 16,
+      "w_over_h_range": [
+        0.00048639599631940966,
+        0.000651354928398562
+      ],
+      "peak_stress_MPa_range": [
+        12.395246997303998,
+        22.3815248769202
+      ]
+    }
+  }
+}

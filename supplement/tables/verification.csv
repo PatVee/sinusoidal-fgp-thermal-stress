@@ -1,0 +1,8 @@
+check,value,limit,unit,passed
+3D affine displacement patch,1.9877039828900913e-15,1e-10,relative,True
+Free thermal expansion stress,3.93681404968162e-13,1e-06,MPa,True
+Steady heat flux constancy,8.562197096352822e-08,2e-05,relative,True
+SPT thin-pressure Navier limit,0.0005173959242721349,0.002,relative,True
+3D modal thin-pressure Navier limit,0.00045919787814252544,0.002,relative,True
+Independent solid/modal pressure displacement,0.0005644811454603715,0.005,relative,True
+Independent solid/modal pressure normal stress,0.0027222394601803764,0.02,relative L2,True

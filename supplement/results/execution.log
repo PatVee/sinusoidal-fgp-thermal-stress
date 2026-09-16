@@ -1,0 +1,127 @@
+VERIFY 3D affine displacement patch 1.9877039828900913e-15 PASS
+VERIFY Free thermal expansion stress 3.93681404968162e-13 PASS
+VERIFY Steady heat flux constancy 8.562197096352822e-08 PASS
+VERIFY SPT thin-pressure Navier limit 0.0005173959242721349 PASS
+VERIFY 3D modal thin-pressure Navier limit 0.00045919787814252544 PASS
+VERIFY Independent solid/modal pressure displacement 0.0005644811454603715 PASS
+VERIFY Independent solid/modal pressure normal stress 0.0027222394601803764 PASS
+RUN 01 baseline: w error=1.800%, centre stress=0.163%, edge stress=31.793%
+RUN 02 thick_high_gradation: w error=13.743%, centre stress=0.237%, edge stress=19.830%
+RUN 03 pressure_diagnostic: w error=0.143%, centre stress=0.147%, edge stress=0.799%
+RUN 04 conv_modes_31: w error=1.805%, centre stress=0.647%, edge stress=29.217%
+RUN 05 conv_modes_61: w error=1.801%, centre stress=0.326%, edge stress=32.380%
+RUN 06 conv_modes_121: w error=1.800%, centre stress=0.163%, edge stress=31.793%
+RUN 07 conv_modes_241: w error=1.800%, centre stress=0.080%, edge stress=31.501%
+RUN 08 conv_thickness_8: w error=1.798%, centre stress=0.355%, edge stress=31.806%
+RUN 09 conv_thickness_16: w error=1.800%, centre stress=0.181%, edge stress=31.795%
+RUN 10 conv_thickness_32: w error=1.800%, centre stress=0.163%, edge stress=31.793%
+RUN 11 conv_thickness_64: w error=1.800%, centre stress=0.163%, edge stress=31.783%
+RUN 12 conv_thick_fine: w error=13.743%, centre stress=0.112%, edge stress=19.714%
+RUN 13 conv_thin_fine: w error=0.055%, centre stress=0.080%, edge stress=44.890%
+RUN 14 map_s5_g0.5_phi0: w error=3.698%, centre stress=0.147%, edge stress=36.181%
+RUN 15 map_s10_g0.5_phi0: w error=0.897%, centre stress=0.155%, edge stress=41.887%
+RUN 16 map_s20_g0.5_phi0: w error=0.221%, centre stress=0.159%, edge stress=44.395%
+RUN 17 map_s40_g0.5_phi0: w error=0.054%, centre stress=0.165%, edge stress=41.538%
+RUN 18 map_s5_g1_phi0: w error=7.652%, centre stress=0.157%, edge stress=28.764%
+RUN 19 map_s10_g1_phi0: w error=1.800%, centre stress=0.163%, edge stress=31.793%
+RUN 20 map_s20_g1_phi0: w error=0.444%, centre stress=0.167%, edge stress=33.236%
+RUN 21 map_s40_g1_phi0: w error=0.111%, centre stress=0.169%, edge stress=30.048%
+RUN 22 map_s5_g5_phi0: w error=13.743%, centre stress=0.237%, edge stress=19.830%
+RUN 23 map_s10_g5_phi0: w error=3.043%, centre stress=0.236%, edge stress=19.757%
+RUN 24 map_s20_g5_phi0: w error=0.740%, centre stress=0.237%, edge stress=19.945%
+RUN 25 map_s40_g5_phi0: w error=0.184%, centre stress=0.231%, edge stress=17.141%
+RUN 26 map_s5_g0.5_phi0.2: w error=3.698%, centre stress=0.147%, edge stress=36.181%
+RUN 27 map_s10_g0.5_phi0.2: w error=0.897%, centre stress=0.155%, edge stress=41.887%
+RUN 28 map_s20_g0.5_phi0.2: w error=0.221%, centre stress=0.159%, edge stress=44.395%
+RUN 29 map_s40_g0.5_phi0.2: w error=0.054%, centre stress=0.165%, edge stress=41.538%
+RUN 30 map_s5_g1_phi0.2: w error=7.652%, centre stress=0.157%, edge stress=28.764%
+RUN 31 map_s10_g1_phi0.2: w error=1.800%, centre stress=0.163%, edge stress=31.793%
+RUN 32 map_s20_g1_phi0.2: w error=0.444%, centre stress=0.167%, edge stress=33.236%
+RUN 33 map_s40_g1_phi0.2: w error=0.111%, centre stress=0.169%, edge stress=30.048%
+RUN 34 map_s5_g5_phi0.2: w error=13.743%, centre stress=0.237%, edge stress=19.830%
+RUN 35 map_s10_g5_phi0.2: w error=3.043%, centre stress=0.236%, edge stress=19.757%
+RUN 36 map_s20_g5_phi0.2: w error=0.740%, centre stress=0.237%, edge stress=19.945%
+RUN 37 map_s40_g5_phi0.2: w error=0.184%, centre stress=0.231%, edge stress=17.141%
+RUN 38 magnetic_eta0: w error=1.800%, centre stress=0.163%, edge stress=31.793%
+RUN 39 magnetic_eta10: w error=1.887%, centre stress=0.157%, edge stress=31.973%
+RUN 40 magnetic_eta30: w error=2.086%, centre stress=0.153%, edge stress=32.262%
+RUN 41 magnetic_eta100: w error=2.949%, centre stress=0.150%, edge stress=32.894%
+RUN 42 magnetic_eta300: w error=6.304%, centre stress=0.151%, edge stress=33.630%
+RUN 43 magnetic_eta1000: w error=29.915%, centre stress=0.175%, edge stress=33.657%
+RUN 44 oat_gradation_low: w error=0.897%, centre stress=0.155%, edge stress=41.887%
+RUN 45 oat_gradation_high: w error=3.365%, centre stress=0.182%, edge stress=23.363%
+RUN 46 oat_porosity_low: w error=1.800%, centre stress=0.163%, edge stress=31.793%
+RUN 47 oat_porosity_high: w error=1.800%, centre stress=0.163%, edge stress=31.793%
+RUN 48 oat_E_exponent_low: w error=1.800%, centre stress=0.163%, edge stress=31.793%
+RUN 49 oat_E_exponent_high: w error=1.800%, centre stress=0.163%, edge stress=31.793%
+RUN 50 oat_k_exponent_low: w error=1.800%, centre stress=0.163%, edge stress=31.793%
+RUN 51 oat_k_exponent_high: w error=1.800%, centre stress=0.163%, edge stress=31.793%
+RUN 52 oat_E_scale_low: w error=1.800%, centre stress=0.163%, edge stress=31.793%
+RUN 53 oat_E_scale_high: w error=1.800%, centre stress=0.163%, edge stress=31.793%
+RUN 54 oat_alpha_scale_low: w error=1.800%, centre stress=0.163%, edge stress=31.793%
+RUN 55 oat_alpha_scale_high: w error=1.800%, centre stress=0.163%, edge stress=31.793%
+RUN 56 pattern_uniform: w error=1.800%, centre stress=0.163%, edge stress=31.793%
+RUN 57 pattern_centre: w error=1.801%, centre stress=0.179%, edge stress=30.765%
+RUN 58 pattern_faces: w error=1.845%, centre stress=0.147%, edge stress=32.712%
+RUN 59 restraint_CCCC: w error=100.000%, centre stress=1.223%, edge stress=5.138%
+RUN 60 restraint_CCCC_fine: w error=100.000%, centre stress=1.139%, edge stress=6.155%
+RUN 61 bounded_joint_00: w error=2.743%, centre stress=0.173%, edge stress=26.430%
+RUN 62 bounded_joint_01: w error=1.733%, centre stress=0.163%, edge stress=32.273%
+RUN 63 bounded_joint_02: w error=0.985%, centre stress=0.155%, edge stress=40.287%
+RUN 64 bounded_joint_03: w error=1.123%, centre stress=0.157%, edge stress=38.233%
+RUN 65 bounded_joint_04: w error=1.248%, centre stress=0.158%, edge stress=36.678%
+RUN 66 bounded_joint_05: w error=2.969%, centre stress=0.176%, edge stress=25.333%
+RUN 67 bounded_joint_06: w error=3.180%, centre stress=0.179%, edge stress=24.309%
+RUN 68 bounded_joint_07: w error=2.011%, centre stress=0.165%, edge stress=30.398%
+RUN 69 bounded_joint_08: w error=2.232%, centre stress=0.167%, edge stress=29.086%
+RUN 70 bounded_joint_09: w error=2.311%, centre stress=0.168%, edge stress=28.649%
+RUN 71 bounded_joint_10: w error=1.896%, centre stress=0.164%, edge stress=31.134%
+RUN 72 bounded_joint_11: w error=3.347%, centre stress=0.182%, edge stress=23.463%
+RUN 73 bounded_joint_12: w error=1.382%, centre stress=0.159%, edge stress=35.254%
+RUN 74 bounded_joint_13: w error=3.133%, centre stress=0.178%, edge stress=24.540%
+RUN 75 bounded_joint_14: w error=2.855%, centre stress=0.174%, edge stress=25.885%
+RUN 76 bounded_joint_15: w error=2.586%, centre stress=0.171%, edge stress=27.210%
+{
+  "baseline": {
+    "w3": 5.7934389119461185e-05,
+    "wp": 5.8977265819685173e-05,
+    "w_over_h": 0.0005793438911946118,
+    "w_error": 1.8000995886459903,
+    "sx3_abs": 17.312519753968655,
+    "sxp_abs": 17.292550989203253,
+    "sx_error": 0.1632282089729477,
+    "edge_sx_error": 31.792656453137575
+  },
+  "magnetic_eta1000": {
+    "deflection_change_percent": -96.43023568679091,
+    "centre_peak_stress_change_percent": 13.121758391268855
+  },
+  "rq2": {
+    "cases": 24,
+    "screen_passes": 0,
+    "w_error_range": [
+      0.05368434952504201,
+      13.742673056228135
+    ],
+    "centre_stress_error_range": [
+      0.14668639976727343,
+      0.2370778715886778
+    ],
+    "edge_stress_error_range": [
+      17.141061452379148,
+      44.39528919443394
+    ]
+  },
+  "bounded_design": {
+    "samples": 16,
+    "w_over_h_range": [
+      0.00048639599631940966,
+      0.000651354928398562
+    ],
+    "peak_stress_MPa_range": [
+      12.395246997303998,
+      22.3815248769202
+    ]
+  }
+}
+DONE 173.6685631950022 seconds
