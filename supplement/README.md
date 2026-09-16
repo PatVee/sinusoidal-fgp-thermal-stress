@@ -1,7 +1,5 @@
 # Executed Python study: thermal porous FGM plates
 
-This is a **new, illustrative computational benchmark reconstructed from the discussion**, not a reproduction of the equations in the previously uploaded proposal. The original Word and PDF file bytes were unavailable. The exact thesis formulation must be checked against these equations before using these results in the thesis.
-
 The package contains executed deterministic analyses, source code, numerical verification, convergence runs, CSV tables, and seven figures in PNG and SVG. No Bayesian inference was performed.
 
 **Run it**
